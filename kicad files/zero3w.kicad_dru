@@ -1,0 +1,4 @@
+(version 1)
+(rule "U1 tight pitch exception"
+  (condition "A.Reference == 'U1'")
+  (constraint clearance (min 0.15mm)))

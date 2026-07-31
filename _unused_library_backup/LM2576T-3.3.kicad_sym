@@ -1,0 +1,65 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "LM2576T-3.3" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -12.7 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "LM2576T-3.3" (id 1) (at -12.7 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "LM2576T-3.3:TO170P1015X457X1845-5" (id 2) (at -12.7 -12.7 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left) hide)
+    )
+    (property "MANUFACTURER" "Taejin" (id 4) (at -12.7 -15.24 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left) hide)
+    )
+    (property "Description" "\n                        \n                            3A, 52kHz, Step-Down Switching Regulator\n                        \n" (id 5) (at -12.7 -17.78 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left) hide)
+    )
+    (symbol "LM2576T-3.3_0_0"
+      (rectangle (start -12.7 -7.62) (end 12.7 7.62)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin input line (at -17.78 5.08 0) (length 5.08)
+        (name "VIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 17.78 0.0 180.0) (length 5.08)
+        (name "OUTPUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -5.08 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 17.78 5.08 180.0) (length 5.08)
+        (name "FB"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 0.0 0) (length 5.08)
+        (name "~{ON}/OFF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
