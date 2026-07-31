@@ -1,4 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "zero3wfoot") (type "KiCad") (uri "C:/Users/vicbo/Desktop/zero3w-pcie-nvme/libraries/footprints/project-footprints.pretty") (options "") (descr ""))
+	(lib (name "zero3wfoot") (type "KiCad") (uri "${KIPRJMOD}/../libraries/footprints/project-footprints.pretty") (options "") (descr ""))
 )
